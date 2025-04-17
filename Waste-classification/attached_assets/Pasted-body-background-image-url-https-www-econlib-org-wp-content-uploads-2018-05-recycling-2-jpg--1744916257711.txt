@@ -1,0 +1,126 @@
+body {
+  background-image: url('https://www.econlib.org/wp-content/uploads/2018/05/recycling-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* darkens the image */
+  z-index: -1;
+}
+
+
+.container {
+  max-width: 500px;
+  width: 90%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.input-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.webcam-button {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.webcam-button.active {
+  background-color: #f44336;
+}
+
+.file-input {
+  border: 2px dashed #aaa;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.video-preview,
+.image-preview {
+  margin-top: 20px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result-box .emoji {
+  font-size: 2rem;
+}
+
+.result-box.recycle {
+  background-color: #c8facc;
+  color: #2e7d32;
+}
+
+.result-box.compost {
+  background-color: #e6f4d7;
+  color: #558b2f;
+}
+
+.result-box.landfill {
+  background-color: #fce4ec;
+  color: #c62828;
+}
+
+.predictions {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

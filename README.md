@@ -1,1 +1,0 @@
-# Auraria-Hack-2025

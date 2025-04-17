@@ -1,0 +1,9 @@
+0 Aluminum soda can - Recycle
+1 Cardboard boxes - Recycle
+2 Disposable plastic - Landfill
+3 plastic_shopping bags- Landfill
+4 plastic_straws - Landfill
+5 eggshells-Compost
+6 food_waste-Compost
+7 tea_bags-Compost
+8 Glass beverage bottle- Recycle
