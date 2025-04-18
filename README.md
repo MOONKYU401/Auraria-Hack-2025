@@ -140,10 +140,10 @@ http://localhost:5173
 
 ## Team 3J1P
 
-- Jayden Moon  
-- Jisoo  
-- Joseph  
-- Paul
+- Joseph Milliken
+- Jayden Kyungju Moon
+- Jacob Lord
+- Paul Kim
 
 ---
 
