@@ -131,6 +131,27 @@ http://localhost:5173
 - Mobile or embedded integration (AR glasses, apps)
 
 ---
+## 🧽 Model Performance
+
+### Accuracy Per Class
+
+| Class                  | Accuracy | # Samples |
+|------------------------|----------|-----------|
+| Aluminum soda cans     | 0.95     | 38        |
+| Cardboard boxes        | 0.89     | 38        |
+| Disposable paper       | 0.92     | 38        |
+| Plastic shopping bags  | 1.00     | 38        |
+| Plastic straws         | 0.84     | 38        |
+| Eggshells (Compost)    | 0.97     | 38        |
+| Food waste (Compost)   | 0.89     | 38        |
+| Tea bags (Compost)     | 0.79     | 38        |
+| Glass beverage bottles | 0.95     | 38        |
+
+
+### Confusion Matrix
+
+![Screenshot 2025-04-17 205133](https://github.com/user-attachments/assets/9d580f5e-78cc-4a9f-9eef-575650d288f2)
+
 
 ## Vision
 
