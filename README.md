@@ -1,10 +1,10 @@
-# ♻️ sustAI-n  
+# sustAI-n  
 **Smart Waste Classification using AI**  
 **Team 3J1P | ML Recycling Hackathon Project**
 
 ---
 
-## 📌 Problem
+## Problem
 
 Recycling and composting in the U.S. is confusing, especially in Colorado where the statewide recycling and composting rate is only **15.5%**. Due to lack of consistent education, access, and infrastructure:
 
@@ -15,19 +15,19 @@ Recycling and composting in the U.S. is confusing, especially in Colorado where 
 
 ---
 
-## 💡 Our Solution: sustAI-n
+## Our Solution: sustAI-n
 
 `sustAI-n` is a smart, interactive web app that allows users to:
 
-- 📸 Upload or capture an image of their waste  
-- 🤖 Use an AI model to classify the image as **Recyclable**, **Compost**, or **Landfill**  
-- 📊 Display the confidence level of the prediction  
+- Upload or capture an image of their waste  
+- Use an AI model to classify the image as **Recyclable**, **Compost**, or **Landfill**  
+- Display the confidence level of the prediction  
 
 This lightweight tool helps individuals make more sustainable choices — instantly.
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - Built with **Teachable Machine**  
 - Exported to **Keras** (`.h5`) for local inference  
@@ -39,13 +39,13 @@ This lightweight tool helps individuals make more sustainable choices — instan
 
 ---
 
-## 🖥️ Features
+## Features
 
-- 📷 Webcam + image upload support  
-- ⚡ Real-time waste classification  
-- 📈 Confidence score display  
-- 🔒 Fully local — no external API needed  
-- 🧩 Built with Vite for fast frontend performance
+- Webcam + image upload support  
+- Real-time waste classification  
+- Confidence score display  
+- Fully local — no external API needed  
+- Built with Vite for fast frontend performance
 
 ---
 
@@ -62,7 +62,7 @@ This lightweight tool helps individuals make more sustainable choices — instan
 
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 
 ```
 Waste-classification/
@@ -77,16 +77,16 @@ Waste-classification/
 
 ---
 
-## 🧪 How to Run It Locally
+## How to Run It Locally
 
-### 🔹 Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/your-team/sustain-recycling.git
 cd Waste-classification
 ```
 
-### 🔹 Step 2: Start the Flask Backend
+### Step 2: Start the Flask Backend
 
 ```bash
 cd ..
@@ -95,9 +95,9 @@ pip install flask flask-cors pillow numpy tensorflow
 python Waste-classification/server.py
 ```
 
-> ✅ **Make sure** `keras_Model.h5` and `labels.txt` are in the same directory as `server.py`.
+> **Make sure** `keras_Model.h5` and `labels.txt` are in the same directory as `server.py`.
 
-### 🔹 Step 3: Start the React Frontend
+### Step 3: Start the React Frontend
 
 ```bash
 cd Waste-classification
@@ -105,7 +105,7 @@ npm install
 npm run dev
 ```
 
-### 🔹 Step 4: Open in Browser
+### Step 4: Open in Browser
 
 ```
 http://localhost:5173
@@ -113,7 +113,7 @@ http://localhost:5173
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 ```
 [React Frontend] --> [Flask Backend API] --> [Teachable Machine Model (.h5)]
@@ -123,22 +123,22 @@ http://localhost:5173
 
 ---
 
-## 📸 Use Case Examples
+## Use Case Examples
 
-- 📚 Classroom recycling education  
-- ♻️ Public kiosks or smart bin installations  
-- 🧤 Sorting lines in facilities  
-- 📱 Mobile or embedded integration (AR glasses, apps)
+- Classroom recycling education  
+- Public kiosks or smart bin installations  
+- Sorting lines in facilities  
+- Mobile or embedded integration (AR glasses, apps)
 
 ---
 
-## 🧭 Vision
+## Vision
 
 > "Our goal is to empower communities to make zero-waste living effortless, educational, and economically viable."
 
 ---
 
-## 👨‍👩‍👧‍👦 Team 3J1P
+## Team 3J1P
 
 - Jayden Moon  
 - Jisoo  
@@ -147,7 +147,7 @@ http://localhost:5173
 
 ---
 
-## 📚 References
+## References
 
 - [CoPIRG Recycling Report](https://pirg.org/colorado/resources/recycling-a-missed-opportunity-to-make-denver-more-sustainable/)
 - [Eco-Cycle Report 2023](https://ecocycle.org/)
@@ -156,10 +156,4 @@ http://localhost:5173
 
 ---
 
-## 🙌 Acknowledgements
-
-Built for the **CU Denver ML Recycling Hackathon**.  
-Special thanks to our instructors, mentors, and everyone who supported us.
-
----
 
