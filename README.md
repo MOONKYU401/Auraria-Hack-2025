@@ -174,7 +174,7 @@ http://localhost:5173
 - [Eco-Cycle Report 2023](https://ecocycle.org/)
 - [EPA Recycling Basics](https://www.epa.gov/recycle)
 - [City of Denver Recycling](https://www.denvergov.org/Government/Departments/Denver-Recycles)
-
+- [Recyclable and Household Waste Classification](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification)
 ---
 
 
